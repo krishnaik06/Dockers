@@ -60,7 +60,7 @@ def predict_note_authentication(variance,skewness,curtosis,entropy):
         
     """
    
-    prediction=classifier.predict([[variance,skewness,curtosis,entropy]])
+    prediction=classifier.predict([[variance,skewness,curtosis,entropy])
     print(prediction)
     return prediction
 
