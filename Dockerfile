@@ -1,7 +1,7 @@
 FROM continuumio/anaconda3:latest
 COPY . /Dockers
-EXPOSE 5000
+EXPOSE 8501
 WORKDIR /Dockers
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
-CMD python flask_api.py
+CMD streamlit run app1.py
