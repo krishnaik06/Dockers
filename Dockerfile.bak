@@ -1,4 +1,4 @@
-FROM continuumio/anaconda3:latest
+FROM continuumio/anaconda3:4.4.0
 COPY . /Dockers
 EXPOSE 5000
 WORKDIR /Dockers
